@@ -1,0 +1,30 @@
+{
+  "name": "t.me_partymoney_bot",
+  "version": "1.0.0",
+  "description": "telegram bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kuzzarvi/t.me_PartyMoney_bot.git"
+  },
+  "author": "Kuzzarvi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kuzzarvi/t.me_PartyMoney_bot/issues"
+  },
+  "homepage": "https://github.com/Kuzzarvi/t.me_PartyMoney_bot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7",
+    "telegraf": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
