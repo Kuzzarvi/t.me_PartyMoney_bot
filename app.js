@@ -39,6 +39,7 @@ bot.on('callback_query', async (ctx) => {
       ctx.deleteMessage();
       sendKeyboard(ctx, textCheck, keyboardCheck);
     }
+
     // ctx.reply('Введите название события');
     // bot.on('message', (ctx) => {
     //   if (ctx.update.message.text.length) {
@@ -46,7 +47,6 @@ bot.on('callback_query', async (ctx) => {
     //     sendKeyboard(ctx, textCheck, keyboardCheck);
     //   }
     // });
-
     bot.hears(/^\/\+alco$/, (ctx) => {
       if (state !== 'fix') {
         if (!event.alcoUsers.users.find((el) => el === ctx.message.from.username)) {
